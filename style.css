@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin-left:0px;
+    margin:0px;
+    margin: top 0px;;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+
+
+body{
+    background:linear-gradient(45deg, #c508ff, #1b034b);
+    background-repeat: no-repeat;
+    width:1366px;   /*medida*/
+    height:764px;
+    display: flex;
+    align-items: center;  /*centralizar*/
+    justify-content: center;
+}
+
+ section, ::before{
+   /* background-color: white; 
+   box-shadow:5px, 5px, 20px rgba(0, 0, 0, 0, 2);
+   border-radius: 8px;  
+   width: ;
+   height: ;*/
+}
+
+.partebranca{
+    background-color: white;
+    box-shadow:5px, 5px, 20px rgba(0, 0, 0, 0, 2);
+    border-radius: 8px;  
+    width:333px ;
+    height:432px; 
+    right:60px ; 
+    /* border-left: 5%; */
+    /* margin-left: 10%;  */
+    position:relative;
+    left:30px;
+    /* top:10px; */
+    /* bottom:30% ; */
+    /* margin-top:0px ; */
+        
+}
+
+#cabeçalho{
+/* margin-left: -55px; */
+margin-right:6% ;
+
+ }
+
+ .todosimput{ 
+    margin-bottom:14px;
+    /* margin-right:0px; */
+    position: relative
+    
+    
+
+}
+
+.bnt{
+    width: 10%;
+    height: 5%;
+    font: inherit;
+    cursor: pointer;
+}
+   
+.botoes {
+           display: inline-block;
+            margin: 1.5em;
+            border: 0;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            color: #FFF;
+            background:#F60;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            border-radius: 0.5em;
+            box-shadow: 3px 3px 3px #930;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;	
+		}
+       
+        
+.botoes:active{
+            
+            box-shadow: 0 0 0 0 #930
+                        inset 4px 4px 4px #930;
+            transform: translate(6px, 6px);
+        }
+        
+}
+
+
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+     width: 7%; 
+     margin-top: 20%; 
+     margin-left: 50%;
+     margin-right:2% ;
+     /* margin-inline:10%; */
+     
+   
+}
+
+.menu li{
+    position:relative;
+    float:left; /*  este elemento faz flutuar na horizontal sem ele fica em forma de */
+   /* border-right:0px solid #656366; */
+}
+
+    /*essa função da espaço entre as linhas*/
+/* .menu li a{ */
+  /*  color:rgb(17, 16, 16); /* cor da letra*/
+    /*text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+/* função de movimento de 3D nos botões 
+
+cor do fundo do botão ao se movimentar
+cor da letra*/
+ .menu li a:hover{ 
+     background:#E1C1EC;
+     color:#fff;  
+ }
+
+
