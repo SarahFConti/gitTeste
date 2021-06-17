@@ -5,6 +5,7 @@
     margin: top 0px;;
     box-sizing:border-box;
     font-family:"poppins",sans-serif;
+font - family 
 }
 
 
@@ -13,10 +14,7 @@ body{
     background-repeat: no-repeat;
     width:1366px;   /*medida*/
     height:764px;
-    display: flex;
-    align-items: center;  /*centralizar*/
-    justify-content: center;
-}
+  
 
  section, ::before{
    /* background-color: white; 
@@ -32,12 +30,7 @@ body{
     border-radius: 8px;  
     width:333px ;
     height:432px; 
-    right:60px ; 
-    /* border-left: 5%; */
-    /* margin-left: 10%;  */
-    position:relative;
-    left:30px;
-    /* top:10px; */
+   
     /* bottom:30% ; */
     /* margin-top:0px ; */
         
