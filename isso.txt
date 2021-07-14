@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="teste.js"></script> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="pure-form">
+        <fieldset>
+            <legend>Confirmação de Senha </legend>
+
+            <input placeholder="Senha" id="password" required>
+            <input placeholder="Confirme Senha" id="confirm_password" required
+                onblur="password.value = consistirSenha(password.value);">
+
+            <!-- <button onclick="validar()">Confirmar</button> -->
+        </fieldset>
+    </form>
+    <script>
+        function consistirSenha() {
+            var password = document.getElementById("password");
+            confirm_password = document.getElementById("confirm_password");
+
+            if (password.value != confirm_password.value) {
+                alert("senha diferente");
+            }
+            else {
+                alert("senha igual");
+            }
+        }
+    </script>
+</body>
+
+</html>
